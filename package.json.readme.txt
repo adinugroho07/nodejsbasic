@@ -1,0 +1,29 @@
+ini adalah data yang ada pada file package.json
+main -> ini untuk entry point aplikasi di jalan kan, cth -> node app.js.
+name -> nama package node nya
+scripts -> ini tempat kita menjalan kan script. contoh : npm start , maka dia akan menjalankan script node app.js .
+           namun kita juga bisa membuat script sendiri. contoh start-server, namun untuk merun nya kita harus menggunakan prefix run
+           , jadi seperti ini -> npm run start-server . karena ini untuk membeda kan mana script yang secara default sudah di
+           sediakan oleh node js dan mana script yang memang kita buat sendiri.
+
+{
+  "name": "nodejsbasic",
+  "version": "1.0.0",
+  "description": "blajar node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adinugroho07/nodejsbasic.git"
+  },
+  "author": "adi nugroho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adinugroho07/nodejsbasic/issues"
+  },
+  "homepage": "https://github.com/adinugroho07/nodejsbasic#readme"
+}
