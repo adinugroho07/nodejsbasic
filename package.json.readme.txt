@@ -6,6 +6,9 @@ scripts -> ini tempat kita menjalan kan script. contoh : npm start , maka dia ak
            , jadi seperti ini -> npm run start-server . karena ini untuk membeda kan mana script yang secara default sudah di
            sediakan oleh node js dan mana script yang memang kita buat sendiri.
 
+sytanks npm jika --save maka hanya akan di instal pada project kita saja.
+                 -g (global) maka akan di instal pada komputer kita ini dan bisa di gunakan di seluruh project.
+
 {
   "name": "nodejsbasic",
   "version": "1.0.0",
